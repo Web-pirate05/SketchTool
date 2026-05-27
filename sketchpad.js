@@ -12,7 +12,6 @@ disableGrid.addEventListener("click", (e) =>{
     boxes.forEach((b) => {
         b.classList.toggle("noGrid");
     });
-    disableGrid.textContent = "Enable Grid";
 });
 clear.addEventListener("click", () => {
     const boxes = document.querySelectorAll(".box");
